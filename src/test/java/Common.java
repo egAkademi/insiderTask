@@ -21,7 +21,7 @@ public class Common {
 
     @Parameters({"browser"})
     @BeforeMethod
-    public void setUp(@Optional("firefox") String browser){
+    public void setUp(@Optional("chrome") String browser){
 
         switch (browser){
             case "chrome"-> {
@@ -37,6 +37,8 @@ public class Common {
                 chromeOptions.addArguments("--proxy-server=");
                 chromeOptions.addArguments("--disable-notifications");
                 chromeOptions.setCapability("chrome.verbose", false);
+
+
                 driver=new ChromeDriver(chromeOptions);
             }
             case "firefox"-> {
