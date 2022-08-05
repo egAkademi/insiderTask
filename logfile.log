@@ -1,0 +1,25 @@
+2022-08-05 10:00:48,208 INFO  [BasePage] visit https://useinsider.com/ 
+2022-08-05 10:00:48,528 INFO  [BasePage] select More menü 
+2022-08-05 10:01:38,265 INFO  [BasePage] select career 
+2022-08-05 10:01:38,267 INFO  [BasePage] Insider Careers 
+2022-08-05 10:01:38,271 INFO  [BasePage]  
+2022-08-05 10:01:38,272 INFO  [BasePage] Web page is opened 
+2022-08-05 10:01:38,308 INFO  [BasePage] Our Locations 
+2022-08-05 10:01:38,338 INFO  [BasePage] See all teams 
+2022-08-05 10:01:38,366 INFO  [BasePage] Life at Insider 
+2022-08-05 10:01:38,395 INFO  [BasePage] Click See All Teams 
+2022-08-05 10:01:39,717 INFO  [BasePage] select Quality Assurance 
+2022-08-05 10:01:44,524 INFO  [BasePage] click See all QA jobs 
+2022-08-05 10:01:46,780 INFO  [BasePage] [[FirefoxDriver: firefox on MAC (6768a5f4-b06c-424c-8adc-31d866eeff58)] -> xpath: //li[text()='Istanbul, Turkey']] 
+2022-08-05 10:01:48,513 INFO  [BasePage] currentResult Total Count2 
+2022-08-05 10:01:48,530 INFO  [BasePage] Number of elements:1 
+2022-08-05 10:01:48,544 INFO  [BasePage] Radio button text:Software QA Tester- Insider Testinium Tech Hub
+Quality Assurance
+Istanbul, Turkey
+Software Quality Assurance Engineer
+Quality Assurance
+Istanbul, Turkey 
+2022-08-05 10:01:48,573 INFO  [BasePage] Quality Assurance 
+2022-08-05 10:01:48,581 INFO  [BasePage] Quality Assurance 
+2022-08-05 10:01:48,589 INFO  [BasePage] Istanbul, Turkey 
+2022-08-05 10:01:48,597 INFO  [BasePage] Istanbul, Turkey 
