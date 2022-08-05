@@ -1,6 +1,7 @@
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
@@ -16,12 +17,10 @@ public class BasePage {
         this.driver=driver;
     }
 
-    public void click(WebElement element){
-        try {
-            element.click();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+    public void clickJS(WebElement element) throws InterruptedException {
+
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("arguments[0].click();", element);
     }
 
     public void click(By by){
@@ -82,6 +81,10 @@ public class BasePage {
             e.printStackTrace();
             return null;
         }
+    }
+
+    public WebElement waitForElementToBeVisible(By element){
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(element));
     }
 
 }

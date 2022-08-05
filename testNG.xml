@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Hepsi Burada" preserve-order="true" parallel="tests" thread-count="2">
+<suite name="insider" preserve-order="true" parallel="tests" thread-count="2">
 
     <test name="Chrome Testleri">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="HepsiBuradaFirstTest" />
+            <class name="FirstTest" />
         </classes>
     </test> <!-- Test -->
 
     <test name="Firefox Testleri">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="HepsiBuradaFirstTest" />
+            <class name="FirstTest" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

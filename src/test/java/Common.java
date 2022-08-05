@@ -21,7 +21,7 @@ public class Common {
 
     @Parameters({"browser"})
     @BeforeMethod
-    public void setUp(@Optional("chrome") String browser){
+    public void setUp(@Optional("firefox") String browser){
 
         switch (browser){
             case "chrome"-> {
